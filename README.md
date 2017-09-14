@@ -7,7 +7,7 @@ In the workshop, you will build a prototype to show when customer uploads a phot
 ## Prerequisites
 1. Install docker from docker.com
 2. Install Python 2.7
-3. Install two Python packages Requests and Flask 
+3. Install two Python packages "Requests" and "Flask" 
 
 
 ## Steps
