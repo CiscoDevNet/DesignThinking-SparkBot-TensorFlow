@@ -1,12 +1,16 @@
 # GSX-DesignThinking-SparkBot-TensorFlow
 
-##Prerequisites
+## Description
+In the workshop, you will build a prototype to show when customer uploads a photo of an object to Cisco spark, it will talk to an open source deep learning library (TensorFlow) to identify the object and return the related topics and options. 
+
+
+## Prerequisites
 1. Install docker from docker.com
 2. Install Python 2.7
 3. Install two Python packages Requests and Flask 
 
 
-##Steps
+## Steps
 1. In Terminal, set current path to the folder of downloaded files ```$ cd <your-folder-name>```
 2. Build a deep-learning docker image based on TensorFlow with pre-training data ```$ docker build . -t dtimg```
 3. Run ngrok for demo connection ```$ ./ngrok http 5000```
