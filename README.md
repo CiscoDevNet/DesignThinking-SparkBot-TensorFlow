@@ -1,8 +1,8 @@
 # GSX-DesignThinking-SparkBot-TensorFlow
 
 ## Description
-In the exercise, you will build a prototype to show when customer uploads a photo of an object to Cisco spark, it will talk to an open source deep learning library (TensorFlow) to identify the object and return the related topics and options. 
-The instructions are based on Mac computer. You may need to modify some steps if you are using windows.
+In the exercise, you will build a prototype to enable image recongition capability for Cisco Spark Bot by leveraging an open source deep learning library - TensorFlow. The use case is - when customer uploads a photo of an product or error screen to Cisco spark, it will automatically identify the product and return the related topics and informations. It can help scenario such as customer support service, etc. 
+The instructions in this exercise are based on Mac computer. You may need to modify some steps if you are using windows device.
 
 
 ## Prerequisites
