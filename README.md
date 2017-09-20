@@ -6,7 +6,7 @@ The instructions are based on Mac computer. You may need to modify some steps if
 
 
 ## Prerequisites
-1. Install [docker](https://www.docker.com/). You will see a running docker on your system bar after completion. [docker menu](https://github.com/CiscoDevNet/GSX-DesignThinking-SparkBot-TensorFlow/blob/master/docker.png)
+1. Install [docker](https://www.docker.com/). You will see a running docker on your system bar after completion. [docker screen](https://github.com/CiscoDevNet/GSX-DesignThinking-SparkBot-TensorFlow/blob/master/Docker.png)
 2. Install Python 2.X. We used Python 2.7 during GSX workshop. You can check your python version by put this command in Terminal ```$ python --version```
 3. Install Python packages "Requests" ```$ sudo pip install Flask``` Check [this page](http://docs.python-requests.org/en/master/user/install/) for more information if you run into any issues.
 4. Install Python packages "Flask" ```$ sudo pip install Flask``` Check [this page](http://flask.pocoo.org/docs/0.12/installation/) for more information if you run into any issues.
