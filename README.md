@@ -6,7 +6,7 @@ The instructions are based on Mac computer. You may need to modify some steps if
 
 
 ## Prerequisites
-1. Install [docker](https://www.docker.com/). You will see a running docker on your system bar after completion.
+1. Install [docker](https://www.docker.com/). You will see a running docker on your system bar after completion. [docker](docker.png)
 2. Install Python 2.X. We used Python 2.7 during GSX workshop. You can check your python version by put this command in Terminal ```$ python --version```
 3. Install Python packages "Requests" ```$ sudo pip install Flask``` Check [this page](http://docs.python-requests.org/en/master/user/install/) for more information if you run into any issues.
 4. Install Python packages "Flask" ```$ sudo pip install Flask``` Check [this page](http://flask.pocoo.org/docs/0.12/installation/) for more information if you run into any issues.
@@ -16,7 +16,7 @@ The instructions are based on Mac computer. You may need to modify some steps if
 1. Download all files from this repo to you local computer if you have not yet.
 2. We need to set the current path to the folder of downloaded files. In Terminal, you can use the **cd** command ```$ cd <your-folder-path>```
 3. Now let's build a deep-learning docker image based on TensorFlow with pre-training data. We will need to use **docker build** command, and set the image title as **dtimg**. ```$ docker build . -t dtimg```
-4. We will use [ngrok](https://ngrok.com/) tool to set up connection tunnel between your computer and public cloud. ```$ ./ngrok http 5000``` You will get a screen like this after completion. You will need the http forwarding url for step 6.
+4. We will use [ngrok](https://ngrok.com/) tool to set up connection tunnel between your computer and public cloud. ```$ ./ngrok http 5000``` You will get a screen like this [ngrok](ngrok.png) after completion. You will need the http forwarding url for step 6.
 5. You will need to register your Spark Bot - login to developer.ciscospark.com, and then go to “My Apps” tab to create your Bot. Once you created your Bot, you will be able to copy the access token of your Bot.
 6. Now we need to update the Bot access token, your Spark account email and ngrok forwarding URL in config.py ```$ open config.py```
 (use cmd+T to open a new tab in Terminal)
