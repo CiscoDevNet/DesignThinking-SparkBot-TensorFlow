@@ -38,6 +38,7 @@ def webhooks():
             m = re.search('"(.+)"', cd)
             name = m.group(0)
             print("%s is an image: %s" % (f, name))
+            ciscospark.post_message("Analyzing")
             name = "%d-%s" % (int(time.time()), name[1:-1])
             ciscospark.download_attachment(f, name)
             ret.append(tf_analysis(name))

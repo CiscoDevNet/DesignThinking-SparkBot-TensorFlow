@@ -174,7 +174,7 @@ def download_attachment(attachment, target):
 
     # send the head request and do not verify SSL certificate for simplicity of this example
     api_response = requests.get(attachment, headers=header, verify=False)
-    with open(target, 'w') as f:
+    with open(target, 'wb') as f:
         f.write(api_response.content)
 
 
